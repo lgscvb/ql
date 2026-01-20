@@ -759,18 +759,24 @@ function ContactSection() {
                   </div>
                   <span>0912-365-411</span>
                 </a>
-                <a href="mailto:service@qualin.tw" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors" data-testid="link-email">
+                <a href="mailto:qualincpa@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors" data-testid="link-email">
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Mail className="h-5 w-5 text-primary" />
                   </div>
-                  <span>service@qualin.tw</span>
+                  <span>qualincpa@gmail.com</span>
                 </a>
                 <div className="flex items-center gap-3 text-muted-foreground" data-testid="text-address">
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
                     <MapPin className="h-5 w-5 text-primary" />
                   </div>
-                  <span>台北市中山區民生東路二段</span>
+                  <span>台中市西區大忠南街55號7樓之五</span>
                 </div>
+                <a href="https://line.me/R/ti/p/@705tepqf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors">
+                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <MessageCircle className="h-5 w-5 text-primary" />
+                  </div>
+                  <span>LINE: @705tepqf</span>
+                </a>
               </div>
             </div>
 
@@ -909,9 +915,13 @@ function Footer() {
           <div>
             <h4 className="font-semibold mb-4">聯絡資訊</h4>
             <ul className="space-y-2 text-sm text-background/70">
+              <li>會計師：楊孟潔</li>
               <li>電話：0912-365-411</li>
-              <li>Email：service@qualin.tw</li>
-              <li>地址：台北市中山區民生東路二段</li>
+              <li>市話：04-3610-6788</li>
+              <li>傳真：04-2376-0502</li>
+              <li>Email：qualincpa@gmail.com</li>
+              <li>LINE：@705tepqf</li>
+              <li>地址：台中市西區大忠南街55號7樓之五</li>
             </ul>
           </div>
         </div>
